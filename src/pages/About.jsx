@@ -7,6 +7,7 @@ const About = () => {
     <section className="bg-gray-100 py-8 mt-16">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-4">About Us</h2>
+        <hr />
         <div className="flex flex-wrap">
           <div className="w-full md:w-1/2 px-4 mb-4">
             <h3 className="text-xl font-bold mb-2 text-red-600">Our Story</h3>
@@ -43,12 +44,15 @@ const About = () => {
     <section className="bg-white ">
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
         <div className="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16 ">
+          <hr />
+          <br />
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
             Our Team
           </h2>
           <p className="font-light text-gray-500 lg:mb-16 sm:text-xl">
           This is the wonderful team in charge of all the development of Rolling Food
           </p>
+          <hr />
         </div>
         <div className="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
           <div className="items-center bg-gray-50 rounded-lg shadow sm:flex">
@@ -63,7 +67,7 @@ const About = () => {
               <h3 className="text-xl font-bold tracking-tight text-gray-900 ">
                 <a href="#">Nahuel Benitez</a>
               </h3>
-              <span className="text-gray-500 font-bold text-yellow-500">CEO & Web Developer</span>
+              <span className="font-bold text-yellow-500">CEO & Web Developer</span>
               <p className="mt-3 mb-4 font-light text-gray-500 ">
               Participated in the development of both front and back on this page.
               </p>
@@ -143,7 +147,7 @@ const About = () => {
               <h3 className="text-xl font-bold tracking-tight text-gray-900 ">
                 <a href="#">Facundo Aguirre</a>
               </h3>
-              <span className="text-gray-500 font-bold text-yellow-500">CEO & Web Developer</span>
+              <span className="font-bold text-yellow-500">CEO & Web Developer</span>
               <p className="mt-3 mb-4 font-light text-gray-500 ">
               Participated in the development of both front and back on this page.
               </p>
@@ -223,7 +227,7 @@ const About = () => {
               <h3 className="text-xl font-bold tracking-tight text-gray-900">
                 <a href="#">Fabrizio Bagnasco</a>
               </h3>
-              <span className="text-gray-500 font-bold text-yellow-500">CEO & Web Developer</span>
+              <span className="font-bold text-yellow-500">CEO & Web Developer</span>
               <p className="mt-3 mb-4 font-light text-gray-500 ">
               Participated in the development of both front and back on this page.
               </p>
@@ -303,7 +307,7 @@ const About = () => {
               <h3 className="text-xl font-bold tracking-tight text-gray-900 ">
                 <a href="#">Ana Malocu</a>
               </h3>
-              <span className="text-gray-500 font-bold text-yellow-500">CEO & Web Developer</span>
+              <span className="font-bold text-yellow-500">CEO & Web Developer</span>
               <p className="mt-3 mb-4 font-light text-gray-500 ">
               Participated in the development of both front and back on this page.
               </p>
