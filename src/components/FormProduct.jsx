@@ -39,7 +39,7 @@ const FormProduct = ({ product, onSubmit, onClose }) => {
             <AiOutlineClose className="text-xl" />
           </button>
         </div>
-        <h2 className="text-xl font-bold mb-4">Agregar Producto</h2>
+        <h2 className="text-xl font-bold mb-4">Add product</h2>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
             type="text"
@@ -60,11 +60,11 @@ const FormProduct = ({ product, onSubmit, onClose }) => {
             onChange={(e) => setCategory(e.target.value)}
             className="border border-gray-300 px-4 py-2 rounded-lg"
           >
-            <option value="">Seleccionar Categoría</option>
-            <option value="hamburguesas">Hamburguesas</option>
+            <option value="">Select Category</option>
+            <option value="hamburguesas">Hamburgers</option>
             <option value="pizzas">Pizzas</option>
-            <option value="comida-vegetariana">Comida Vegetariana</option>
-            <option value="bebidas">Bebidas</option>
+            <option value="comida-vegetariana">Vegetarian food</option>
+            <option value="bebidas">Drinks</option>
           </select>
           <textarea
             placeholder="Descripción"
@@ -77,14 +77,14 @@ const FormProduct = ({ product, onSubmit, onClose }) => {
               type="submit"
               className="bg-blue-500 text-white px-4 py-2 rounded-lg"
             >
-              Guardar
+              Save
             </button>
             <button
               type="button"
               className="bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
               onClick={handleCancel}
             >
-              Cancelar
+              Cancel
             </button>
           </div>
         </form>

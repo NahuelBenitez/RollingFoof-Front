@@ -37,7 +37,7 @@ const handleLogin =()=>{
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-red-600">
       <div className="bg-white p-8 rounded-lg shadow-md max-w-sm w-full">
-        <h2 className="text-2xl font-bold text-center mb-6">Iniciar sesión</h2>
+        <h2 className="text-2xl font-bold text-center mb-6">Login</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
             <label className="block text-gray-700">Email</label>
@@ -50,7 +50,7 @@ const handleLogin =()=>{
             />
           </div>
           <div className="mb-4 relative">
-            <label className="block text-gray-700">Contraseña</label>
+            <label className="block text-gray-700">Password</label>
             <input
               type={showPassword ? "text" : "password"}
               value={password}
@@ -74,13 +74,13 @@ const handleLogin =()=>{
             type="submit"
             className="w-full py-2 bg-yellow-500 text-white rounded-lg hover:bg-green-600"
           >
-            Ingresar
+            Sign in
           </button>
         </form>
         <div className="text-center text-red-500 mt-3">
-          ¿No tienes una cuenta?{" "}
+          Don't have an account?{" "}
           <Link to="/Register" className="text-blue-500 hover:text-blue-800">
-            Haz clic aquí
+            Click here
           </Link>
         </div>
       </div>

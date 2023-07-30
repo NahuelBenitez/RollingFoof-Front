@@ -26,15 +26,15 @@ const Home = () => {
         <div className="mx-auto max-w-screen-xl py-16 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto max-w-xl text-center">
             <h1 className="text-3xl font-extrabold sm:text-5xl text-yellow-400 m-1">
-              La App que trae la comida que amas hasta <br />
+            The app that brings the food you love to <br />
               <strong className="font-extrabold text-red-600 sm:block mt-3">
-                TU HOGAR
+                YOUR HOME
               </strong>
             </h1>
 
             <p className="m sm:text-xl/relaxed py-2">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-              illo tenetur fuga ducimus numquam ea!
+            THERE’S SO MUCH TO CELEBRATE.
+Receive $5 in Rolling Food when you purchase $25 in gift cards, now through 6/18/23!
             </p>
 
             <div className="m-8 flex flex-wrap justify-center gap-4">

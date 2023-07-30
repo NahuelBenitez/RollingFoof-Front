@@ -22,7 +22,7 @@ const TableUser = ({ users, onEdit, onDelete }) => {
           onClick={handleAddUser}
         >
           <FaPlus className="mr-2" />
-          Agregar Usuario
+         Add User
         </button>
       </div>
       <table className="w-full border border-gray-300">

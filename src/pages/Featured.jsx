@@ -48,7 +48,7 @@ const Featured = () => {
         <div>Loading...</div>
       ) : (
         <div>
-          <h1 className="text-2xl font-bold mb-4">Productos Destacados</h1>
+          <h1 className="text-2xl font-bold mb-4">Featured products</h1>
           {productos !== null && productos.products.length > 0 ? (
             <div className="relative">
               {currentIndex > 0 && (
@@ -81,7 +81,7 @@ const Featured = () => {
               )}
             </div>
           ) : (
-            <div>No hay productos</div>
+            <div>There are no products</div>
           )}
         </div>
       )}

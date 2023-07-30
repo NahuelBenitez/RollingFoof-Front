@@ -42,7 +42,7 @@ const FormUser = ({ user, onSubmit, onClose }) => {
             <AiOutlineClose className="text-xl" />
           </button>
         </div>
-        <h2 className="text-xl font-bold mb-4">Agregar Usuario</h2>
+        <h2 className="text-xl font-bold mb-4">Add user</h2>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <input
             type="text"
@@ -84,14 +84,14 @@ const FormUser = ({ user, onSubmit, onClose }) => {
               type="submit"
               className="bg-blue-500 text-white px-4 py-2 rounded-lg"
             >
-              Guardar
+              Save
             </button>
             <button
               type="button"
               className="bg-gray-300 text-gray-800 px-4 py-2 rounded-lg"
               onClick={handleCancel}
             >
-              Cancelar
+              Cancel
             </button>
           </div>
         </form>

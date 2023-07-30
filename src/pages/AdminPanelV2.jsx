@@ -43,7 +43,7 @@ const AdminPanelV2 = () => {
               }`}
               onClick={() => handleTabClick("dashboard")}
             >
-              <span className="ml-9 text-red-600">Administracion</span>
+              <span className="ml-9 text-red-600">Administration</span>
             </a>
           </li>
           <li>

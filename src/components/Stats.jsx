@@ -6,13 +6,11 @@ const Stats = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 md:py-16 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
-            Porque nuestros Clientes nos prefieren
+            Why our customers prefer us
           </h2>
 
           <p className="mt-4 text-gray-500 sm:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            dolores laborum labore provident impedit esse recusandae facere
-            libero harum sequi.
+            Chosen by millions of people, we are the best delivery in Tucumán. We have many means so that your food arrives home hot and in good condition. The best flavors and textures in your food.
           </p>
         </div>
 

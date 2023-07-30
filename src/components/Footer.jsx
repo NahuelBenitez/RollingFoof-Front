@@ -7,12 +7,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <div className="flex justify-center text-black sm:justify-start">
-             <img src={logo} alt="" />
+              <img src={logo} alt="" />
             </div>
 
             <p className="mt-6 max-w-md text-center leading-relaxed text-black sm:max-w-xs sm:text-left">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
-              consequuntur amet culpa cum itaque neque.
+              The delivery is a culmination of a passion for food, hospitality and a sense of community in the busiest city in the world
             </p>
 
             <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
@@ -224,7 +223,7 @@ const Footer = () => {
                     </a>
                   </li>
 
-               
+
                 </ul>
               </nav>
             </div>
@@ -256,7 +255,7 @@ const Footer = () => {
                     </svg>
 
                     <span className="flex-1 text-gray-700 dark:text-gray-300">
-                      john@doe.com
+                    info@acme.org
                     </span>
                   </a>
                 </li>
@@ -282,7 +281,7 @@ const Footer = () => {
                     </svg>
 
                     <span className="flex-1 text-gray-700 dark:text-gray-300">
-                      0123456789
+                    +44 1234567890
                     </span>
                   </a>
                 </li>
@@ -309,7 +308,7 @@ const Footer = () => {
                   </svg>
 
                   <address className="-mt-0.5 flex-1 not-italic text-gray-700 dark:text-gray-300">
-                    213 Lane, London, United Kingdom
+                  Acme Inc, Street, State, Postal Code
                   </address>
                 </li>
               </ul>
@@ -317,35 +316,35 @@ const Footer = () => {
           </div>
         </div>
 
-        
+
       </div>
       <div className="mt-2 border-t border-gray-100 pt-6 bg-red-700 ">
-          <div className="text-center sm:flex sm:justify-between sm:text-left md:flex">
-            <p className="text-sm text-white mr-4">
-              <span className="block sm:inline">All rights reserved.</span>
+        <div className="text-center sm:flex sm:justify-between sm:text-left md:flex">
+          <p className="text-sm text-white mr-4">
+            <span className="block sm:inline">All rights reserved.</span>
 
-              <a
-                className="inline-block underline transition hover:text-red-900"
-                href="/"
-              >
-                Terms & Conditions
-              </a>
+            <a
+              className="inline-block underline transition hover:text-red-900"
+              href="/"
+            >
+              Terms & Conditions
+            </a>
 
-              <span>&middot;</span>
+            <span>&middot;</span>
 
-              <a
-                className="inline-block  underline transition hover:text-red-600/75 "
-                href="/"
-              >
-                Privacy Policy
-              </a>
-            </p>
+            <a
+              className="inline-block  underline transition hover:text-red-600/75 "
+              href="/"
+            >
+              Privacy Policy
+            </a>
+          </p>
 
-            <p className="mt-2 text-sm  text-white sm:order-first sm:mt-0">
-              &copy; 2023 RollingFood
-            </p>
-          </div>
+          <p className="mt-2 text-sm  text-white sm:order-first sm:mt-0">
+            &copy; 2023 RollingFood
+          </p>
         </div>
+      </div>
     </footer>
   );
 };

@@ -50,7 +50,7 @@ const Header = () => {
             </li>
             <li className="relative">
               <Link to={"/cart"} className="flex items-center">
-                Carrito
+                Cart
                 <BsCartFill />
                 {cartItems.length > 0 && (
                   <div className="absolute -top-1 -right-1 text-white bg-red-500 h-4 w-4 rounded-full m-0 p-0 text-sm text-center">

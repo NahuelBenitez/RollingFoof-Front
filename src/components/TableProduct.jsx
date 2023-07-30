@@ -22,7 +22,7 @@ const TableProduct = ({ products, onEdit, onDelete }) => {
           onClick={handleAddProduct}
         >
           <FaPlus className="mr-2" />
-          Agregar Producto
+          Add product 
         </button>
       </div>
       <table className="w-full border border-gray-300">

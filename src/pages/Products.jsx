@@ -30,7 +30,7 @@ const Products = () => {
         <div>Loading...</div>
       ) : (
         <div className="flex flex-col items-center border-t border-gray-100 bg-slate-300 ">
-          <h2 className="text-2xl font-bold mt-24 mb-5">Productos</h2>
+          <h2 className="text-2xl font-bold mt-24 mb-5">Products</h2>
           <div className="flex justify-center mt-2">
             <div className="flex flex-wrap gap-4 ">
               <CategoryIcon

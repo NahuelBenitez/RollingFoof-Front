@@ -89,7 +89,7 @@ const Team = () => {
               </a>
               <div className="p-5">
                 <h3 className="text-xl font-bold tracking-tight text-gray-900 ">
-                  <a href="#">Ana Maloc</a>
+                  <a href="#">Ana Malocu</a>
                 </h3>
                 <span className="text-gray-500 ">CTO</span>
                 <p className="mt-3 mb-4 font-light text-gray-500 ">

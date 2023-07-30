@@ -20,20 +20,20 @@ const AdminPanel = () => {
       <h2 className="text-2xl font-bold mt-16 text-center">Admin Panel</h2>
 
       <div>
-        <h3 className="text-xl font-bold mb-2">Lista de Usuarios</h3>
+        <h3 className="text-xl font-bold mb-2">Users List</h3>
         {users.length > 0 ? (
           <TableUser users={users} />
         ) : (
-          <p>No hay usuarios registrados.</p>
+          <p>There are no registered users.</p>
         )}
       </div>
 
       <div>
-        <h3 className="text-xl font-bold mb-2">Lista de Productos</h3>
+        <h3 className="text-xl font-bold mb-2">Products List</h3>
         {products.length > 0 ? (
           <TableProduct products={products} />
         ) : (
-          <p>No hay productos registrados.</p>
+          <p>No products registered.</p>
         )}
       </div>
     </div>
