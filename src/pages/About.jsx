@@ -1,21 +1,26 @@
 import React from "react";
+import logo from "../assets/logorfood.jpg";
+import nahuel from "../assets/nahuel.jpg";
+import ana from "../assets/ana.jpg";
+import facundo from "../assets/facundo.jpg";
+import fabrizio from "../assets/fabrizio.jpg";
 
 
 const About = () => {
   return (
     <div>
-    <section className="bg-gray-100 py-8 mt-16">
+    <section className="bg-gray-200 py-8 mt-16">
       <div className="container mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-4">About Us</h2>
+        <h2 className="text-4xl font-bold text-center mb-4 text-red-600">About Us</h2>
         <hr />
         <div className="flex flex-wrap">
-          <div className="w-full md:w-1/2 px-4 mb-4">
+          <div className="w-full md:w-1/2 px-4 mb-4 rounded-sm border border-yellow-300">
             <h3 className="text-xl font-bold mb-2 text-red-600">Our Story</h3>
             <p className="text-gray-700">
               Once upon a time, four passionate food lovers came together with a common vision - to provide delicious food right at your doorstep. Our journey started with a shared love for culinary delights and a strong desire to bring convenience to our customers' lives. With each member bringing their unique expertise and skills to the table, we embarked on the adventure of creating a food delivery service that would revolutionize the industry.
             </p>
           </div>
-          <div className="w-full md:w-1/2 px-4 mb-4">
+          <div className="w-full md:w-1/2 px-4 mb-4  rounded-sm border border-yellow-300">
             <h3 className="text-xl font-bold mb-2 text-red-600">Our Values</h3>
             <ul className="list-disc list-inside text-gray-700">
               <li>Quality: We are committed to providing the highest quality of food to our customers.</li>
@@ -26,13 +31,13 @@ const About = () => {
           </div>
         </div>
         <div className="flex flex-wrap">
-          <div className="w-full md:w-1/2 px-4 mb-4">
+          <div className="w-full md:w-1/2 px-4 mb-4 rounded-sm border border-yellow-300">
             <h3 className="text-xl font-bold mb-2 text-red-600">Our Services</h3>
             <p className="text-gray-700">
               At our company, we offer a wide range of services to cater to your culinary cravings. Whether you're looking for a quick bite, a family meal, or a gourmet dining experience, we've got you covered. Our dedicated team of chefs and delivery personnel work tirelessly to ensure that your food arrives fresh and flavorful, right at your doorstep.
             </p>
           </div>
-          <div className="w-full md:w-1/2 px-4 mb-4">
+          <div className="w-full md:w-1/2 px-4 mb-4 rounded-sm border border-yellow-300">
             <h3 className="text-xl font-bold mb-2 text-red-600">Our Vision and Mission</h3>
             <p className="text-gray-700">
               Our vision is to become the go-to food delivery service, known for our exceptional quality, reliability, and customer satisfaction. We aim to revolutionize the way people experience food delivery by constantly pushing boundaries and introducing innovative solutions. Our mission is to provide a seamless and delightful dining experience, making every meal memorable for our valued customers.
@@ -59,8 +64,8 @@ const About = () => {
             <a href="#">
               <img
                 className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                alt=""
-                srcSet=""
+                alt="nahuel"            
+                src={nahuel}
               />
             </a>
             <div className="p-5">
@@ -137,10 +142,10 @@ const About = () => {
           </div>
           <div className="items-center bg-gray-50 rounded-lg shadow sm:flex ">
             <a href="#">
-              <img
+            <img
                 className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                alt=""
-                srcSet=""
+                alt="facundo"            
+                src={facundo}
               />
             </a>
             <div className="p-5">
@@ -217,10 +222,10 @@ const About = () => {
           </div>
           <div className="items-center bg-gray-50 rounded-lg shadow sm:flex ">
             <a href="#">
-              <img
+            <img
                 className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                alt=""
-                srcSet=""
+                alt="fabrizio"            
+                src={fabrizio}
               />
             </a>
             <div className="p-5">
@@ -297,10 +302,10 @@ const About = () => {
           </div>
           <div className="items-center bg-gray-50 rounded-lg shadow sm:flex ">
             <a href="#">
-              <img
+            <img
                 className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                alt=""
-                srcSet=""
+                alt="ana"            
+                src={ana}
               />
             </a>
             <div className="p-5">

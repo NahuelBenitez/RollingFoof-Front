@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { getProductos, getCategory } from "../services/consultasFetch";
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from "react-icons/bs";
 import CardFeautured from "../components/CardFeauture";
+import './loader.css'
 
 const Featured = () => {
   const [loading, setLoading] = useState(true);
@@ -42,10 +43,14 @@ const Featured = () => {
     setCurrentIndex((prevIndex) => prevIndex + 1);
   };
 
+  
+
   return (
     <div>
       {loading ? (
-        <div>Loading...</div>
+        <div className="flex items-center justify-center h-36">
+        <div className="mover">Loading...</div>
+        </div>
       ) : (
         <div>
           <h1 className="text-2xl font-bold mb-4">Featured products</h1>
