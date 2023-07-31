@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import AdminPanel from './pages/AdminPanel';
 import NotFound from './pages/NotFound';
+import Register from "../pages/Register";
 
 
 const RootRouter = () => {

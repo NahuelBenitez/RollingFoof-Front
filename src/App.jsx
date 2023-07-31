@@ -14,6 +14,8 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
 import { CartProvider } from "./context/cartContext";
+import Register from "./pages/Register";
+
 
 
 
