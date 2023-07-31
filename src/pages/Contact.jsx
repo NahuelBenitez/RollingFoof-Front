@@ -1,6 +1,26 @@
 import React from "react";
+import Swal from 'sweetalert2/dist/sweetalert2.js'
 
 const Contact = () => {
+  function sendEmail(event) {
+    event.preventDefault()
+
+    const username = document.getElementById("name");
+    const email = document.getElementById("email");
+    const mensaje = document.getElementById("comentario");
+
+    Email.send({
+      Host: "smtp.elasticemail.com",
+      Username: "ana_sofia_400@hotmail.com",
+      Password: "BF9814EDF771B794050C9C30EF64741600CE",
+      To: 'ana_sofia_400@hotmail.com',
+      From: "ana_sofia_400@hotmail.com",
+      Subject: "Comment by user",
+      Body: `<html>The user: ${username.value}, email: ${email.value} has sent a message: <br> ${mensaje.value}<br>
+</html>`
+    })
+    Swal.fire({ text: 'Comment sent to the administrator', icon: 'success', })
+  }
   return (
     <div className="relative flex items-top justify-center  bg-white  sm:items-center sm:pt-16">
       <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -8,7 +28,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="p-16 mr-2 bg-gray-100  sm:rounded-lg">
               <h1 className="text-4xl sm:text-5xl text-gray-800  font-extrabold tracking-tight">
-              Do you have any doubt?
+                Do you have any doubt?
               </h1>
               <p className="text-normal text-lg sm:text-2xl font-medium text-gray-600  mt-2">
                 Contact us...
@@ -110,6 +130,7 @@ const Contact = () => {
                   name="email"
                   id="email"
                   placeholder="Email"
+                  required
                   className="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400  text-gray-800 font-semibold focus:border-yellow-500 focus:outline-none"
                 />
               </div>
@@ -123,6 +144,7 @@ const Contact = () => {
                   name="tel"
                   id="tel"
                   placeholder="Telephone Number"
+                  required
                   className="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400  text-gray-800 font-semibold focus:border-yellow-500 focus:outline-none"
                 />
               </div>
@@ -134,6 +156,7 @@ const Contact = () => {
                   name="message"
                   id="message"
                   placeholder="Message"
+                  required
                   className="w-full mt-2 py-3 px-3 rounded-lg bg-white border border-gray-400 text-gray-800 font-semibold focus:border-yellow-500 focus:outline-none"
                 />
               </div>
