@@ -19,7 +19,7 @@ const Card = ({ id, name, image, description, category, price }) => {
         className="bg-green-500 p-2 rounded text-white border border-yellow-300 hover:bg-green-600"
         onClick={() => addToCart({ id, name, image, description, category, price, quantity: 1 })}
       >
-        Comprar
+        Buy
       </button>
     </div>
   );
