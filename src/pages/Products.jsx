@@ -54,7 +54,7 @@ const Products = () => {
             </div>
           </div>
 
-          <div className="flex flex-wrap justify-center mt-4 gap-4">
+          <div className="flex flex-wrap justify-center mt-4 gap-4 mb-6">
             {productos.products.map((prod) => (
               <Card
                 key={prod._id}

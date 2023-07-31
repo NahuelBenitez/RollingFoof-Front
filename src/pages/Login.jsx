@@ -70,12 +70,13 @@ const handleLogin =()=>{
               )}
             </button>
           </div>
+          <Link to= {"/404"}>
           <button
             type="submit"
             className="w-full py-2 bg-yellow-500 text-white rounded-lg hover:bg-green-600"
           >
             Sign in
-          </button>
+          </button></Link>
         </form>
         <div className="text-center text-red-500 mt-3">
           Don't have an account?{" "}

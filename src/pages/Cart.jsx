@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { CartContext } from "../context/cartContext";
+import { Link } from "react-router-dom";
 
 const Cart = () => {
   const { cartItems, removeFromCart, incrementQuantity, decrementQuantity } = useContext(CartContext);
@@ -10,7 +11,7 @@ const Cart = () => {
   }, 0);
 
   return (
-    <div className="container mx-auto p-4 mt-12">
+    <div className="container mx-auto p-4 mt-12 mb-6">
       <h1 className="text-3xl font-bold mt-7">Shopping cart</h1>
 
       <ul className="grid grid-cols-1 gap-4">
@@ -31,9 +32,11 @@ const Cart = () => {
       </ul>
       <div className="mt-4 flex justify-end">
         <p className="text-xl font-semibold">Total payable: ${total}</p>
-        <button className="ml-4 px-4 py-2 bg-yellow-400 text-white rounded-md">
+<Link to={"/404"}>
+       <button className="ml-4 px-4 py-2 bg-yellow-400 text-white rounded-md">
         Proceed to payment
         </button>
+</Link>
       </div>
     </div>
   );
