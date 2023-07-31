@@ -79,7 +79,7 @@ const handleLogin =()=>{
         </form>
         <div className="text-center text-red-500 mt-3">
           Don't have an account?{" "}
-          <Link to="/Register" className="text-blue-500 hover:text-blue-800">
+          <Link to="/Click"  className="text-blue-500 hover:text-blue-800">
             Click here
           </Link>
         </div>
