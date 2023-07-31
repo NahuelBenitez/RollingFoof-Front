@@ -38,8 +38,8 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/Cart" element={<Cart />} />
-        <Route path="/Register" element={<Register />}/>
-        <Route element={<NotFound />} />
+        <Route path="/404" element={<NotFound />} />
+       
         {/*  <Route path="/login" element={<LoginScreen />} /> */}
 
         <Route path="*" element={<Navigate replace to="/" />} />
