@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import AdminPanel from './pages/AdminPanel';
 import NotFound from './pages/NotFound';
+import Register from "../pages/Register";
 
 
 const RootRouter = () => {
@@ -21,6 +22,7 @@ const RootRouter = () => {
         
         <Route path="/login" component={<Login />} />
         <Route path="/admin" component={<AdminPanel />} />
+        <Route path="/register" component={<Register />} />
         <Route component={NotFound} />
         {/*  <Route path="/login" element={<LoginScreen />} /> */}
 

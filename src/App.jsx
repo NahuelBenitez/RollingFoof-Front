@@ -14,6 +14,8 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Cart from "./pages/Cart";
 import { CartProvider } from "./context/cartContext";
+import Register from "./pages/Register";
+
 
 
 
@@ -36,6 +38,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/Cart" element={<Cart />} />
+        <Route path="/Register" element={<Register />}/>
         <Route element={<NotFound />} />
         {/*  <Route path="/login" element={<LoginScreen />} /> */}
 
