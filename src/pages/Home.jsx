@@ -3,6 +3,8 @@ import backgroundImage from "../assets/banner3.jpg";
 import Featured from "./Featured";
 import Testimonials from "../components/Testimonials";
 import Stats from "../components/Stats";
+import { Link } from "react-router-dom";
+
 
 const Home = () => {
   const sectionStyle = {
@@ -38,19 +40,19 @@ Receive $5 in Rolling Food when you purchase $25 in gift cards, now through 6/18
             </p>
 
             <div className="m-8 flex flex-wrap justify-center gap-4">
-              <a
+              <Link
                 className="block w-full rounded bg-red-600 px-12 py-3 text-sm font-medium text-yellow-300 shadow hover:bg-red-700 focus:outline-none focus:ring active:bg-red-500 sm:w-auto border-4 border-yellow-400"
-                href="#"
+                href="/404"
               >
                 SHOP NOW!
-              </a>
+              </Link>
 
-              <a
+              <Link
                 className="block w-full rounded bg-gray-400 px-12 py-3 text-sm font-medium text-red-600 shadow hover:bg-gray-700 focus:outline-none focus:ring active:bg-slate-400 sm:w-auto border-4 border-red-400"
-                href="#"
+                href="/404"
               >
                 Learn More
-              </a>
+              </Link>
             </div>
           </div>
         </div>

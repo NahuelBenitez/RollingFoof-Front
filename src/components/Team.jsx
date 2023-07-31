@@ -19,7 +19,7 @@ const Team = () => {
               <a href="#">
                 <img
                   className="w-full rounded-lg sm:rounded-none sm:rounded-l-lg"
-                  src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                  src="https://flowbite.s3.amazonaws.com/blocks/marketingui/avatars/bonnie-green.png"
                 />
               </a>
               <div className="p-5">

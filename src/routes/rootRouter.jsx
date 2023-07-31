@@ -18,13 +18,13 @@ const RootRouter = () => {
       <Routes>
         <Route path="/" element={<Home />} />
        
-        
+
         <Route path="/login" component={<Login />} />
         <Route path="/admin" component={<AdminPanel />} />
-        <Route component={NotFound} />
+        <Route exact path="/404"  component={<NotFound />} />
         {/*  <Route path="/login" element={<LoginScreen />} /> */}
 
-        <Route path="*" element={<Navigate replace to="/" />} />
+        <Route path="*" />
       </Routes>
     </BrowserRouter>
   );
