@@ -1,14 +1,16 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { getProductos, getCategory } from "../services/consultasFetch";
 import { BsFillArrowLeftCircleFill, BsFillArrowRightCircleFill } from "react-icons/bs";
 import CardFeautured from "../components/CardFeauture";
 import './loader.css'
+import { CartContext } from "../context/cartContext";
 
 const Featured = () => {
   const [loading, setLoading] = useState(true);
   const [productos, setProductos] = useState(null);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [categories, setCategories] = useState([]);
+  const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -59,7 +61,7 @@ const Featured = () => {
               {currentIndex > 0 && (
                 <button
                   className="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-2 bg-green-500 text-white rounded-md shadow-lg hover:bg-green-700"
-                  onClick={handleClickPrevious}
+                 // onClick={handleClickPrevious}
                 >
                   <BsFillArrowLeftCircleFill />
                 </button>
@@ -73,6 +75,7 @@ const Featured = () => {
                     key={prod._id}
                     dataProducto={prod}
                     category={categories[index]}
+                    addToCart={() => addToCart(prod)}
                     />
                   ))}
               </div>
